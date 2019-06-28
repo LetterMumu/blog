@@ -1,0 +1,54 @@
+
+@media only screen and (min-width:600px) and (max-width:1366px){
+    .selfalbum{
+        width: 88%;
+        margin-left: 7%;
+        float: left;
+    }
+    .selfalbum>.img{
+        width: 210px;
+        height: 210px;
+        margin: 0px 20px 20px 0px;
+        float: left;
+    }
+    img{
+        width: 210px;
+        height: 210px;
+        border-radius: 10px;
+    }
+}
+@media only screen and (min-width:420px) and (max-width:600px){
+    .selfalbum{
+        width: 88%;
+        margin-left: 7%;
+        float: left;
+    }
+    .selfalbum>.img{
+        width: 160px;
+        height: 160px;
+        margin: 0px 20px 20px 0px;
+        float: left;
+    }
+    img{
+        width: 160px;
+        height: 160px;
+        border-radius: 10px;
+    }
+}
+@media only screen and (min-width:0px) and (max-width:420px) {
+    body::after {
+        margin: auto;
+        font-size: 20px;
+        color: red;
+        content: "屏幕分辨率太低，请更换设备后观看";
+    }
+
+    .index-left {
+        display: none;
+    }
+
+    .index-right {
+        display: none;
+    }
+
+}

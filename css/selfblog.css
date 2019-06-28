@@ -1,0 +1,180 @@
+@media only screen and (min-width:600px) and (max-width:1366px) {
+    .selfblog {
+        width: 100%;
+    }
+    
+    .selfblog-left {
+        margin-right: 20px;
+        float: left;
+        width: 45%;
+
+    
+    }
+    
+    .selfblog-right {
+        float: left;
+        width: 45%;
+
+    }
+    
+    .selfblog ul {
+        margin: 0 0 10px 0;
+        width: 98%;
+    }
+    
+    .selfblog ul>li {
+        list-style: none;
+        background-color: rgba(46,59,94);
+        width: 98%;
+        height: 35px;
+        margin-top: 7px;
+        line-height: 30px;
+        border-radius: 5px;
+    }
+    
+    .selfblog ul>li>a {
+        padding-left: 10px;
+        display: inline-block;
+        text-decoration: none;
+        color: antiquewhite;
+        width: 99%;
+        height: 30px;
+    }
+    
+    .selfblog ul>li>a>span {
+        float: right;
+        margin-right: 20px;
+    }
+    
+    .selfblog-footer {
+        margin: 0px;
+        width: 100%;
+        height: 40px;
+        text-align: center;
+    }
+    
+    .selfblog-footer>ul {
+        margin: 10px auto 0px auto;
+        width: 50%;
+        min-width: 500px;;
+        height: 40px;
+        list-style: none;
+    }
+    
+    .selfblog-footer>ul>li {
+        display: block;
+        float: left;
+        width: 50px;
+        height: 30px;
+        line-height: 30px;
+        margin-left: 5px;
+        background-color: rgb(46,59,94);
+        border-radius: 5px;
+        border: rgb(18, 18, 66) 1px solid;
+       
+    }
+    .selfblog-footer>ul>li .first{
+        background-color: rgba(13, 113, 243,0.3);
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+    }
+    .selfblog-footer>ul>li>a{
+        display: inline-block;
+        text-decoration: none;
+        width: 50px;
+        height: 30px;
+        font-size: 16px;
+        color: bisque;
+    }
+}
+@media only screen and (min-width:420px) and (max-width:600px) {
+    .selfblog {
+        width: 100%;
+    }
+    
+    .selfblog-left {
+        margin-right: 20px;
+        float: left;
+        width: 90%;
+
+    
+    }
+    
+    .selfblog-right {
+        float: left;
+        width: 90%;
+        margin-top: -10px;
+    }
+    
+    .selfblog ul {
+        margin: 0 0 10px 0;
+        width: 90%;
+    }
+    
+    .selfblog ul>li {
+        list-style: none;
+        background-color: rgba(46,59,94);
+        width: 99%;
+        height: 35px;
+        margin-top: 7px;
+        line-height: 30px;
+        border-radius: 5px;
+    }
+    
+    .selfblog ul>li>a {
+        padding-left: 10px;
+        display: inline-block;
+        text-decoration: none;
+        color: antiquewhite;
+        width: 99%;
+        height: 30px;
+    }
+    
+    .selfblog ul>li>a>span {
+        float: right;
+        margin-right: 20px;
+    }
+    
+    .selfblog-footer {
+        margin: 0px;
+        width: 100%;
+        height: 40px;
+        text-align: center;
+    }
+    
+    .selfblog-footer>ul {
+        margin: 10px auto 0px auto;
+        width: 50%;
+        min-width: 400px;;
+        height: 40px;
+        list-style: none;
+    }
+    
+    .selfblog-footer>ul>li {
+        display: block;
+        float: left;
+        width: 50px;
+        height: 30px;
+        line-height: 30px;
+        margin-left: 5px;
+        background-color: rgb(46,59,94);
+        border-radius: 5px;
+        border: rgb(18, 18, 66) 1px solid;
+       
+    }
+    .selfblog-footer>ul>li .first{
+        background-color: rgba(13, 113, 243,0.3);
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+    }
+    .selfblog-footer>ul>li>a{
+        display: inline-block;
+        text-decoration: none;
+        width: 50px;
+        height: 30px;
+        font-size: 16px;
+        color: bisque;
+    }
+}

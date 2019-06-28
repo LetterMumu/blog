@@ -1,0 +1,133 @@
+
+@media only screen and (min-width:900px) and (max-width:1366px){
+    .selfpresent {
+        margin-left: 7%;
+        float: left;
+        width: 90%;
+    }
+    
+    .selfpresent>.left {
+        float: left;
+        width: 5rem;
+        height: 250px;
+        margin-right: 40px;
+    }
+    
+    .selfpresent>.left>span {
+        height: 40PX;
+        line-height: 40px;
+        width: 4.2rem;
+        display: inline-block;
+    }
+    
+    .selfpresent-text {
+        color: #2E3B5E;
+        font-size: 18PX;
+        font-weight: bold;
+        width: 70px;
+    }
+    
+    .selfpresent>.right {
+        float: left;
+        width: 250px;
+        height: 250px;
+    }
+    
+    .selfpresent>.right>img {
+        width: 250px;
+        height: 250px;
+        border-radius: 5px;
+    }
+    
+    .selfpresent>.bottom {
+        float: left;
+        width: 90%;
+        height: 200px;
+        margin-top: 20px;
+    }
+}
+
+
+@media only screen and (min-width:600px) and (max-width:900px){
+    .selfpresent {
+        margin-left: 7%;
+        float: left;
+        width: 90%;
+    }
+    
+    .selfpresent>.left {
+        float: left;
+        width: 400px;
+        height: 250px;
+        margin-right: 40px;
+    }
+    
+    .selfpresent>.left>span {
+        height: 40PX;
+        line-height: 40px;
+        width: 380px;
+        display: inline-block;
+    }
+    
+    .selfpresent-text {
+        color: #2E3B5E;
+        font-size: 18PX;
+        font-weight: bold;
+        width: 70px;
+    }
+    
+    .selfpresent>.right{
+        display: none;
+    }
+    
+    .selfpresent>.bottom {
+        float: left;
+        width: 90%;
+        height: 200px;
+        margin-top: 20px;
+    }
+}
+@media only screen and (min-width:420px) and (max-width:600px){
+    .selfpresent {
+        margin-left: 7%;
+        float: left;
+        width: 90%;
+    }
+    
+    .selfpresent>.left {
+        float: left;
+        width: 400px;
+        height: 250px;
+        margin-right: 40px;
+    }
+    
+    .selfpresent>.left>span {
+        height: 40PX;
+        line-height: 40px;
+        width: 380px;
+        display: inline-block;
+    }
+    
+    .selfpresent-text {
+        color: #2E3B5E;
+        font-size: 12PX;
+        font-weight: bold;
+        width: 70px;
+    }
+    
+    .selfpresent>.right{
+        display: none;
+    }
+    
+    .selfpresent>.bottom {
+        float: left;
+        width: 90%;
+        height: 200px;
+        margin-top: 20px;
+    }
+}
+@media only screen and (min-width:0px) and (max-width:420px){
+    .selfpresent{
+        display: none;
+    }
+}

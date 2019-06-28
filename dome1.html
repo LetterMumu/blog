@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="com.controller.ProductController!addProducts">
+    编号：<input type="text" name="id"/><br>
+    型号：<input type="text" name="xinghao"/><br>
+    厂家：<input type="text" name="changjia"/><br>
+    图片：
+    <span id="span">
+    	   <input  type="file" name="tupian" onchange="loadPtoto(this)"/>
+    	</span>
+    <br>
+    描述：<input type="text" name="discription"/><br>
+    <input type="submit" value="submit"/>
+
+</form>
+<form id="form" target="abc" action="com.controller.ProductController!loadPhoto" method="post" enctype="multipart/form-data">
+    <iframe name="abc" style="display: none;"></iframe>
+</form>
+<div style="width: 630px;">
+    <div id="photoDiv" style="margin-left: -10px;">
+        <div  style="width: 200px;height: 100px;background-color: yellow;float: left;margin-left: 10px;overflow: hidden;"></div>
+       
+    </div>
+    <div style="margin-left: -10px;margin-top:-100px;float: left">
+     <div  style="width: 200px;float: left;margin-left: 10px;overflow: hidden;text-align:right">X</div>
+
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.yuwolianxi{
+    margin-left: 7%;
+    float: left;
+    width: 90%;
+}
+.yuwolianxi>span{
+    width: 100%;
+    display: block;
+    margin: 0;
+    font-size: 18PX;
+    height: 50px;
+    line-height: 50px;
+}
+
+.yuwolianxi-text {
+    color: #2E3B5E;
+    font-size: 18PX;
+    font-weight: bold;
+    width: 70px;
+}

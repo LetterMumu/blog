@@ -1,0 +1,154 @@
+
+.index-right>img {
+    margin-top: 120px;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    transition:All 0.6s ease-in-out;
+    -webkit-transition:All 0.6s ease-in-out;
+    -moz-transition: All 0.6s ease-in-out;
+    -o-transition: All 0.6s ease-in-out;
+}
+
+.index-right>img:hover {
+    border-radius: 60px;
+    transition: 1s;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+}
+
+.index-right>ul {
+    margin-top: 50px;
+    list-style: none;
+    -webkit-padding-start: 0px;
+}
+
+.index-right>ul>li {
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.index-right>ul>li>a {
+    display: inline-block;
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+    color: rgb(168, 168, 161);
+    background-color: rgb(222, 215, 209, 0.2);
+    font-size: 0.25rem;
+    border-radius: 10px;
+}
+
+.index-right>ul>li>a:hover {
+    color: rgb(199, 160, 101);
+    background-color: rgb(222, 215, 209);
+    font-weight:bold;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition: All 1s ease;
+    -o-transition: All 1s ease;
+}
+
+@media only screen and (min-width:901px) and (max-width:1366px) {
+    body {
+        width: 99vw;
+        height: 99vh;
+        margin: auto;
+        padding: 0;
+    }
+
+    .index-left {
+        text-align: center;
+        float: left;
+        height: 100%;
+        width: 50%;
+    }
+
+    .index-left>img {
+        align-self: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .index-right {
+        text-align: center;
+        float: left;
+        padding: 0 0 0 0;
+        height: 99vh;
+        width: 50%;
+        background-color: rgba(231, 230, 229, 0.6);
+    }
+
+}
+
+@media only screen and (min-width:601px) and (max-width:900px) {
+    body {
+        width: 70vw;
+        min-width: 601px;
+        height: 99vh;
+        margin: auto;
+        padding: 0;
+    }
+
+    .index-left {
+        display: none;
+    }
+
+    .index-right {
+        text-align: center;
+        float: left;
+        padding: 0 0 0 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(231, 230, 229, 0.6);
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width:600px) {
+    body {
+        width: 70vw;
+        min-width: 301px;
+        height: 99vh;
+        margin: auto;
+        padding: 0;
+    }
+
+    .index-left {
+        display: none;
+    }
+
+    .index-right {
+        text-align: center;
+        float: left;
+        padding: 0 0 0 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(231, 230, 229, 0.6);
+    }
+
+}
+
+@media only screen and (min-width:0px) and (max-width:480px) {
+    body::after {
+        margin: auto;
+        font-size: 20px;
+        color: red;
+        content: "屏幕分辨率太低，请更换设备后观看";
+    }
+
+    .index-left {
+        display: none;
+    }
+
+    .index-right {
+        display: none;
+    }
+
+}

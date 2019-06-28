@@ -1,0 +1,384 @@
+hr {
+  width: 96%;
+  text-align: center;
+}
+
+
+
+
+@media only screen and (min-width:900px) and (max-width:1366px) {
+  body {
+    margin: 10px;
+    width: 98vw;
+  }
+
+  .img {
+    float: left;
+  }
+
+  .main-top {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 120px;
+    background-color: rgb(241, 240, 239);
+    border-radius: 5px;
+  }
+
+  .main-top>.img>img {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 30px;
+  }
+
+  .main-top>.text {
+    float: left;
+    margin: 10px;
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 30px;
+  }
+
+  .main-daohang {
+    display: none;
+  }
+
+  .daohang {
+    display: none;
+  }
+
+  .main-top>.text>span {
+    color: rgb(85, 98, 214);
+  }
+
+  .main-left {
+    margin-right: 1vw;
+    border-radius: 5px;
+    width: 18vw;
+    height: 500px;
+    float: left;
+    background-color: rgb(241, 240, 239);
+  }
+
+  .main-left>ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px 0px 0px 10px;
+  }
+
+  .main-left>ul>p {
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    color: rgb(85, 98, 214);
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0px;
+  }
+
+  .main-left>ul>li {
+    text-align: center;
+    margin-top: 20px;
+    width: 16vw;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .main-left>ul>li>a {
+    width: 100%;
+    height: 40px;
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(36, 65, 109);
+    text-decoration: none;
+  }
+
+  .main-left>ul>li>a.first {
+    background-color: rgb(46, 59, 94);
+    border-radius: 5px;
+    color: rgb(241, 240, 239);
+  }
+
+  .main-right {
+    text-align: left;
+    width: 79vw;
+    min-height: 500px;
+    float: right;
+    background-color: rgb(241, 240, 239);
+    border-radius: 5px;
+  }
+
+  .main-right-top {
+    width: 77vw;
+    height: 100px;
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  .main-right-top>span {
+    color: rgb(36, 65, 109);
+  }
+
+  .main-right-top>.text {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    padding-left: 40px;
+  }
+
+  .main-right-top>.text1 {
+    color: rgb(36, 65, 109);
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (min-width:600px) and (max-width:901px) {
+  body {
+    margin: 10px;
+    width: 97vw;
+  }
+
+  .main-left {
+    display: none;
+  }
+
+  .img {
+    text-align: center;
+  }
+
+  .main-top {
+    position: relative;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 140px;
+    background-color: rgb(241, 240, 239);
+    border-radius: 5px;
+  }
+
+  .main-top>.img>img {
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    border-radius: 40px;
+  }
+
+  .main-top>.text {
+    text-align: center;
+    width: 100%px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 22px;
+  }
+
+  .main-top>.text>span {
+    color: rgb(85, 98, 214);
+  }
+
+  .daohang {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(241, 240, 239);
+    margin-bottom: 10px;
+    margin-top: -10px;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .daohang>ul {
+    list-style: none;
+  }
+
+  .daohang>ul>li {
+    float: left;
+    width: 12vw;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 1vw;
+  }
+  .daohang>ul>li>a {
+    text-decoration: none;
+    width: 100%;
+    height: 30px;
+    display: inline-block;
+    font-size: 18px;
+    color: rgb(36, 65, 109);
+  }
+
+  .main-right {
+    margin-top: 10px;
+    text-align: left;
+    width: 100%;
+    min-height: 500px;
+    float: left;
+    background-color: rgb(241, 240, 239);
+    border-radius: 5px;
+  }
+
+  .main-right-top {
+    width: 77vw;
+    height: 100px;
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  .main-right-top>span {
+    color: rgb(36, 65, 109);
+  }
+
+  .main-right-top>.text {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    padding-left: 40px;
+  }
+
+  .main-right-top>.text1 {
+    color: rgb(36, 65, 109);
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (min-width:420px) and (max-width:600px) {
+  body {
+    margin: 10px;
+    width: 98vw;
+  }
+
+  .main-left {
+    display: none;
+  }
+
+  .img {
+    text-align: center;
+  }
+
+  .main-top {
+    position: relative;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 140px;
+    background-color: rgb(241, 240, 239);
+    border-radius: 5px;
+  }
+
+  .main-top>.img>img {
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    border-radius: 40px;
+  }
+
+  .main-top>.text {
+    text-align: center;
+    width: 100%px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+  }
+
+  .main-top>.text>span {
+    color: rgb(85, 98, 214);
+  }
+
+  .daohang {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(241, 240, 239);
+    margin-bottom: 10px;
+    margin-top: -10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .daohang>ul {
+    list-style: none;
+  }
+
+  .daohang>ul>li {
+    float: left;
+    width: 12vw;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 1vw;
+  }
+  .daohang>ul>li>a {
+    text-decoration: none;
+    width: 100%;
+    height: 30px;
+    display: inline-block;
+    font-size: 0.3rem;
+    color: rgb(36, 65, 109);
+  }
+
+  .main-right {
+    margin-top: 10px;
+    text-align: left;
+    width: 100%;
+    min-height: 500px;
+    float: left;
+    background-color: rgb(241, 240, 239);
+    border-radius: 5px;
+  }
+
+  .main-right-top {
+    width: 77vw;
+    height: 70px;
+    color: rgb(0, 0, 0);
+    font-size:0.4rem;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  .main-right-top>span {
+    color: rgb(36, 65, 109);
+  }
+
+  .main-right-top>.text {
+    color: rgb(0, 0, 0);
+    font-size: 0.2rem;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    padding-left: 40px;
+  }
+
+  .main-right-top>.text1 {
+    color: rgb(36, 65, 109);
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
+
+
+@media only screen and (min-width:0px) and (max-width:420px) {
+  body::after {
+    margin: auto;
+    font-size: 20px;
+    color: red;
+    content: "屏幕分辨率太低，请更换设备后观看";
+  }
+
+  .main-top {
+    display: none;
+  }
+
+  .main-left {
+    display: none;
+  }
+
+  .main-right {
+    display: none;
+  }
+}
